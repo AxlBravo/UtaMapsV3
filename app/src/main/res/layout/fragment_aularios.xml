@@ -14,6 +14,32 @@
     android:background="@color/black"
     tools:context=".ui.gallery.GalleryFragment">
 
+    <ImageView
+        android:id="@+id/imageViewAularioA"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="42dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/aularioa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewAularioA"
+        android:layout_width="198dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Aulario A"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewaularioa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewaularioa"
+        app:layout_constraintTop_toTopOf="@+id/imageViewaularioa" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
