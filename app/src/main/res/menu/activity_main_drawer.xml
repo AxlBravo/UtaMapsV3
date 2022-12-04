@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icons8_house_48"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/departamento_icono"
+            android:title="@string/menu_deptos" />
+        <item
+            android:id="@+id/nav_aularios"
+            android:icon="@drawable/aulario_icono"
+            android:title="@string/menu_aularios" />
+        <item
+            android:id="@+id/nav_facultades"
+            android:icon="@drawable/facu"
+            android:title="@string/menu_facultades" />
+        <item
+            android:id="@+id/nav_administrativo"
+            android:icon="@drawable/administrador_icono"
+            android:title="@string/menu_administrativo" />
+        <item
+            android:id="@+id/nav_anexos"
+            android:icon="@drawable/anexo_icono"
+            android:title="@string/menu_anexos" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="@string/menu_slideshow" />
+
+    </group>
+</menu>

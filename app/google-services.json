@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "213292204311",
+    "project_id": "utamaps",
+    "storage_bucket": "utamaps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213292204311:android:59a8266e9ef51d076db752",
+        "android_client_info": {
+          "package_name": "com.example.utamaps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "213292204311-9t5qa59jt0rnvpth59biiu05el0hpi2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuneK4cXbaBRxOlWbKT5GVoSszK1lVwno"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "213292204311-9t5qa59jt0rnvpth59biiu05el0hpi2g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

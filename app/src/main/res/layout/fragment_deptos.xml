@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ui.gallery.GalleryFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/deptofisica"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="42dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/deptomatematicas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="198dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Departamento de Física"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="198dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Departamento de Matemáticas"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/deptoicci"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mecanica"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="198dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Departamento de Mecánica"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="198dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Departamento de Ingeniería Civil en Computación e Informática"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+    <ImageView
+        android:id="@+id/imageViewIndustrial"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/industrial"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/textViewIndustrial"
+        android:layout_width="198dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Departamento de Ingeniería Industrial"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewIndustrial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewIndustrial"
+        app:layout_constraintTop_toTopOf="@+id/imageViewIndustrial" />
+
+    <ImageView
+        android:id="@+id/imageViewEdFisica"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="42dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/departamento_ed_fisica"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewIndustrial" />
+
+    <TextView
+        android:id="@+id/textViewEdFisica"
+        android:layout_width="198dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Departamento de Educacion Fisica"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewEdFisica"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewEdFisica"
+        app:layout_constraintTop_toTopOf="@+id/imageViewEdFisica" />
+
+    <ImageView
+        android:id="@+id/imageViewElectronicaElectricidad"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="42dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/electronicaelectricidad"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewEdFisica" />
+
+    <TextView
+        android:id="@+id/textViewElectricidadElectronica"
+        android:layout_width="198dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Departamento de Ingenieria Electronica  y Electricidad"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewElectronicaElectricidad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewElectronicaElectricidad"
+        app:layout_constraintTop_toTopOf="@+id/imageViewElectronicaElectricidad" />
+
+    <ImageView
+        android:id="@+id/imageViewMedicina"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="42dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/departamento_medicina"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewElectronicaElectricidad" />
+
+    <TextView
+        android:id="@+id/textViewMedicina"
+        android:layout_width="198dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Departamento de Medicina"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewMedicina"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewMedicina"
+        app:layout_constraintTop_toTopOf="@+id/imageViewMedicina" />
+
+    <ImageView
+        android:id="@+id/imageViewTrabajoSocial"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="42dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/departamento_trabajo_social"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewMedicina" />
+
+    <TextView
+        android:id="@+id/textViewTrabajoSocial"
+        android:layout_width="198dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Departamento de Trabajo Social"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewTrabajoSocial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewTrabajoSocial"
+        app:layout_constraintTop_toTopOf="@+id/imageViewTrabajoSocial" />
+
+    <ImageView
+        android:id="@+id/imageViewPsicologia"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="42dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/picologia"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewTrabajoSocial" />
+
+    <TextView
+        android:id="@+id/textViewPsicologia"
+        android:layout_width="198dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Departamento de Psicologia"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewPsicologia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewPsicologia"
+        app:layout_constraintTop_toTopOf="@+id/imageViewPsicologia" />
+
+
+    <ImageView
+        android:id="@+id/imageViewMecanica"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="42dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/departamento_mecanica"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewPsicologia" />
+
+    <TextView
+        android:id="@+id/textViewMecanica"
+        android:layout_width="198dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Departamento de ingenieria mecanica"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewMecanica"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewMecanica"
+        app:layout_constraintTop_toTopOf="@+id/imageViewMecanica" />
+
+    <ImageView
+        android:id="@+id/imageViewLaboratorioMecanica"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="42dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/laboratorio_mecanica"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewMecanica" />
+
+    <TextView
+        android:id="@+id/textViewLaboratorioMecanica"
+        android:layout_width="198dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Laboratorios integrados de mecanica"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewLaboratorioMecanica"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewLaboratorioMecanica"
+        app:layout_constraintTop_toTopOf="@+id/imageViewLaboratorioMecanica" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
