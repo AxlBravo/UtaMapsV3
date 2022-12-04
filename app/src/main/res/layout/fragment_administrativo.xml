@@ -105,8 +105,8 @@
 
         <TextView
             android:id="@+id/textViewServiciosYlogistica"
-            android:layout_width="198dp"
-            android:layout_height="55dp"
+            android:layout_width="177dp"
+            android:layout_height="96dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
             android:text="Direccion de Servicios y Logistica, Direccion de Infraestructura y Equipamiento,Finanzas, Recursos Humanos"
@@ -117,6 +117,32 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imageViewDirServiciosYlogistica"
             app:layout_constraintTop_toTopOf="@+id/imageViewDirServiciosYlogistica" />
+
+        <ImageView
+            android:id="@+id/imageViewDirAsuntosEstudiantales"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="42dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/deptomatematicas"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewDirServiciosYlogistica" />
+
+        <TextView
+            android:id="@+id/textViewAsuntosEstudiantiles"
+            android:layout_width="177dp"
+            android:layout_height="96dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Direccion de Asuntos Estudiantiles, Registraduria y Adquisiciones"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewDirAsuntosEstudiantales"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewDirAsuntosEstudiantales"
+            app:layout_constraintTop_toTopOf="@+id/imageViewDirAsuntosEstudiantales" />
 
 
 
