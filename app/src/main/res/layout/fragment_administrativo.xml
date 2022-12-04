@@ -14,7 +14,7 @@
         tools:context=".ui.administrativo.AdministrativoFragment">
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/imageViewCobranzas"
             android:layout_width="140dp"
             android:layout_height="100dp"
             android:layout_marginStart="16dp"
@@ -25,23 +25,23 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textViewCobranzas"
             android:layout_width="198dp"
             android:layout_height="55dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
-            android:text="Departamento d"
+            android:text="Cobranzas"
             android:textColor="#FFFFFF"
             android:textSize="16sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewCobranzas"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageView2"
-            app:layout_constraintTop_toTopOf="@+id/imageView2" />
+            app:layout_constraintStart_toEndOf="@+id/imageViewCobranzas"
+            app:layout_constraintTop_toTopOf="@+id/imageViewCobranzas" />
 
 
         <ImageView
-            android:id="@+id/imageView4"
+            android:id="@+id/imageViewDocencia"
             android:layout_width="140dp"
             android:layout_height="100dp"
             android:layout_marginStart="16dp"
@@ -49,22 +49,78 @@
             android:scaleType="centerCrop"
             android:src="@drawable/deptomatematicas"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+            app:layout_constraintTop_toBottomOf="@+id/imageViewCobranzas" />
 
         <TextView
-            android:id="@+id/textView7"
+            android:id="@+id/textViewDocencia"
             android:layout_width="198dp"
             android:layout_height="55dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
-            android:text="Departamento de Matemáticas"
+            android:text="Docencia"
             android:textColor="#FFFFFF"
             android:textSize="16sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewDocencia"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageView4"
-            app:layout_constraintTop_toTopOf="@+id/imageView4" />
+            app:layout_constraintStart_toEndOf="@+id/imageViewDocencia"
+            app:layout_constraintTop_toTopOf="@+id/imageViewDocencia" />
+
+        <ImageView
+            android:id="@+id/imageViewAdmision"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="42dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/deptomatematicas"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewDocencia" />
+
+        <TextView
+            android:id="@+id/textViewAdmision"
+            android:layout_width="198dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Admision y Extension"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewAdmision"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewAdmision"
+            app:layout_constraintTop_toTopOf="@+id/imageViewAdmision" />
+
+        <ImageView
+            android:id="@+id/imageViewDirServiciosYlogistica"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="42dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/deptomatematicas"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewAdmision" />
+
+        <TextView
+            android:id="@+id/textViewServiciosYlogistica"
+            android:layout_width="198dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Direccion de Servicios y Logistica, Direccion de Infraestructura y Equipamiento,Finanzas, Recursos Humanos"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewDirServiciosYlogistica"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewDirServiciosYlogistica"
+            app:layout_constraintTop_toTopOf="@+id/imageViewDirServiciosYlogistica" />
+
+
+
+
 
 
 
