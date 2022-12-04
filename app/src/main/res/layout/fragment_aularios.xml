@@ -8,22 +8,22 @@
     android:layout_height="match_parent"
     android:fillViewport="true">
 
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context=".ui.gallery.GalleryFragment">
+    tools:context=".ui.aularios.AulariosFragment">
 
     <ImageView
         android:id="@+id/imageViewAularioA"
         android:layout_width="140dp"
         android:layout_height="100dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="42dp"
+        android:layout_marginTop="16dp"
         android:scaleType="centerCrop"
         android:src="@drawable/aularioa"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"  />
 
     <TextView
         android:id="@+id/textViewAularioA"
@@ -35,10 +35,10 @@
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/imageViewaularioa"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewAularioA"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageViewaularioa"
-        app:layout_constraintTop_toTopOf="@+id/imageViewaularioa" />
+        app:layout_constraintStart_toEndOf="@+id/imageViewAularioA"
+        app:layout_constraintTop_toTopOf="@+id/imageViewAularioA" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
