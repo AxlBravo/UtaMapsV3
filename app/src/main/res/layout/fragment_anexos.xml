@@ -13,6 +13,36 @@
         android:background="@color/black"
         tools:context=".ui.anexos.Fragment">
 
+        <Button
+            android:id="@+id/btnAnexoFeuch"
+            android:layout_width="45dp"
+            android:layout_height="47dp"
+            app:icon="@drawable/ubicacion"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewFEUCH"
+            app:layout_constraintEnd_toEndOf="@+id/btnAnexoExplora"
+            app:layout_constraintStart_toStartOf="@+id/btnAnexoExplora"
+            app:layout_constraintTop_toTopOf="@+id/textViewFEUCH" />
+
+        <Button
+            android:id="@+id/btnAnexoPreUniversitario"
+            android:layout_width="45dp"
+            android:layout_height="47dp"
+            app:icon="@drawable/ubicacion"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewPreUniversitario"
+            app:layout_constraintEnd_toEndOf="@+id/btnAnexoFeuch"
+            app:layout_constraintStart_toStartOf="@+id/btnAnexoFeuch"
+            app:layout_constraintTop_toTopOf="@+id/textViewPreUniversitario" />
+
+        <Button
+            android:id="@+id/btnAnexoCeinpsi"
+            android:layout_width="45dp"
+            android:layout_height="47dp"
+            app:icon="@drawable/ubicacion"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewCEINPSI"
+            app:layout_constraintEnd_toEndOf="@+id/btnAnexoPreUniversitario"
+            app:layout_constraintStart_toStartOf="@+id/btnAnexoPreUniversitario"
+            app:layout_constraintTop_toTopOf="@+id/textViewCEINPSI" />
+
         <ImageView
             android:id="@+id/imageViewBibliotecaCentral"
             android:layout_width="140dp"
@@ -99,43 +129,15 @@
             app:layout_constraintVertical_bias="0.7" />
 
         <ImageView
-            android:id="@+id/imageViewOficinasyBodegas"
-            android:layout_width="140dp"
-            android:layout_height="100dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="42dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/deptomatematicas"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBodegaDespachoInventario" />
-
-        <TextView
-            android:id="@+id/textViewOficinasBodegas"
-            android:layout_width="138dp"
-            android:layout_height="42dp"
-            android:layout_marginStart="8dp"
-            android:fontFamily="sans-serif-black"
-            android:text="Oficinas y Bodegas"
-            android:textColor="#FFFFFF"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@+id/imageViewOficinasyBodegas"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.081"
-            app:layout_constraintStart_toEndOf="@+id/imageViewOficinasyBodegas"
-            app:layout_constraintTop_toTopOf="@+id/imageViewOficinasyBodegas"
-            app:layout_constraintVertical_bias="0.689" />
-
-        <ImageView
             android:id="@+id/imageViewFotocopiaSalasClases"
             android:layout_width="140dp"
             android:layout_height="100dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="44dp"
+            android:layout_marginTop="52dp"
             android:scaleType="centerCrop"
             android:src="@drawable/deptomatematicas"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewOficinasyBodegas" />
+            app:layout_constraintTop_toBottomOf="@+id/imageViewBodegaDespachoInventario" />
 
         <TextView
             android:id="@+id/textViewFotocopiasSalasClases"
@@ -187,7 +189,7 @@
             android:layout_width="140dp"
             android:layout_height="100dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="42dp"
+            android:layout_marginTop="52dp"
             android:scaleType="centerCrop"
             android:src="@drawable/deptomatematicas"
             app:layout_constraintStart_toStartOf="parent"
@@ -215,7 +217,7 @@
             android:layout_width="140dp"
             android:layout_height="100dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="42dp"
+            android:layout_marginTop="52dp"
             android:scaleType="centerCrop"
             android:src="@drawable/deptomatematicas"
             app:layout_constraintStart_toStartOf="parent"
@@ -223,8 +225,8 @@
 
         <TextView
             android:id="@+id/textViewExplora"
-            android:layout_width="134dp"
-            android:layout_height="36dp"
+            android:layout_width="110dp"
+            android:layout_height="43dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
             android:text="Explora"
@@ -243,7 +245,7 @@
             android:layout_width="140dp"
             android:layout_height="100dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="42dp"
+            android:layout_marginTop="52dp"
             android:scaleType="centerCrop"
             android:src="@drawable/deptomatematicas"
             app:layout_constraintStart_toStartOf="parent"
@@ -251,8 +253,8 @@
 
         <TextView
             android:id="@+id/textViewFEUCH"
-            android:layout_width="154dp"
-            android:layout_height="31dp"
+            android:layout_width="119dp"
+            android:layout_height="36dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
             android:text="FEUCH"
@@ -271,7 +273,7 @@
             android:layout_width="140dp"
             android:layout_height="100dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="52dp"
             android:scaleType="centerCrop"
             android:src="@drawable/deptomatematicas"
             app:layout_constraintStart_toStartOf="parent"
@@ -299,7 +301,7 @@
             android:layout_width="140dp"
             android:layout_height="100dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="52dp"
             android:scaleType="centerCrop"
             android:src="@drawable/deptomatematicas"
             app:layout_constraintStart_toStartOf="parent"
@@ -354,14 +356,43 @@
             app:layout_constraintTop_toTopOf="@+id/textViewBodegaDespachoInventario" />
 
         <Button
-            android:id="@+id/btnAnexoOficinas"
+            android:id="@+id/btnAnexoFotocopiadoras"
             android:layout_width="45dp"
             android:layout_height="47dp"
             app:icon="@drawable/ubicacion"
-            app:layout_constraintBottom_toBottomOf="@+id/textViewOficinasBodegas"
-            app:layout_constraintEnd_toEndOf="@+id/btnAnexoBodega"
-            app:layout_constraintStart_toStartOf="@+id/btnAnexoBodega"
-            app:layout_constraintTop_toTopOf="@+id/textViewOficinasBodegas" />
+            app:layout_constraintBottom_toBottomOf="@+id/textViewFotocopiasSalasClases"
+            app:layout_constraintTop_toTopOf="@+id/textViewFotocopiasSalasClases"
+            tools:layout_editor_absoluteX="347dp" />
+
+        <Button
+            android:id="@+id/btnAnexoSalaEstudio"
+            android:layout_width="45dp"
+            android:layout_height="47dp"
+            app:icon="@drawable/ubicacion"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewSalasEstudio"
+            app:layout_constraintEnd_toEndOf="@+id/btnAnexoFotocopiadoras"
+            app:layout_constraintStart_toStartOf="@+id/btnAnexoFotocopiadoras"
+            app:layout_constraintTop_toTopOf="@+id/textViewSalasEstudio" />
+
+        <Button
+            android:id="@+id/btnAnexoCasino"
+            android:layout_width="45dp"
+            android:layout_height="47dp"
+            app:icon="@drawable/ubicacion"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewCasino"
+            app:layout_constraintEnd_toEndOf="@+id/btnAnexoSalaEstudio"
+            app:layout_constraintStart_toStartOf="@+id/btnAnexoSalaEstudio"
+            app:layout_constraintTop_toTopOf="@+id/textViewCasino" />
+
+        <Button
+            android:id="@+id/btnAnexoExplora"
+            android:layout_width="45dp"
+            android:layout_height="47dp"
+            app:icon="@drawable/ubicacion"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewExplora"
+            app:layout_constraintEnd_toEndOf="@+id/btnAnexoCasino"
+            app:layout_constraintStart_toStartOf="@+id/btnAnexoCasino"
+            app:layout_constraintTop_toTopOf="@+id/textViewExplora" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
