@@ -20,7 +20,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/deptofisica"
+            android:src="@drawable/cobranza"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -48,7 +48,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="42dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/deptomatematicas"
+            android:src="@drawable/dido"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewCobranzas" />
 
@@ -76,7 +76,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="42dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/deptomatematicas"
+            android:src="@drawable/noimagen"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewDocencia" />
 
@@ -104,7 +104,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="42dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/deptomatematicas"
+            android:src="@drawable/dae"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewAdmision" />
 
@@ -132,7 +132,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="42dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/deptomatematicas"
+            android:src="@drawable/registraduria"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewDirServiciosYlogistica" />
 
