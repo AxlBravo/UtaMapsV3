@@ -94,8 +94,10 @@
         android:id="@+id/textView6"
         android:layout_width="387dp"
         android:layout_height="35dp"
+        android:layout_marginBottom="80dp"
         android:text="En el campus se encuentran la Rectoria, la Prorrectoria, el Aula Magna, la mayor parte de la Facultad de Ciencias y el CFT"
         android:textColor="#FDFDFD"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />

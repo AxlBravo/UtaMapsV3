@@ -133,8 +133,10 @@
         android:layout_height="100dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="42dp"
+        android:layout_marginBottom="60dp"
         android:scaleType="centerCrop"
         android:src="@drawable/noimagen"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageViewAularioSigloXXI" />
 
