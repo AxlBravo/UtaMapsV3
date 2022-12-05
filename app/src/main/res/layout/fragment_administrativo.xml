@@ -24,10 +24,11 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+
         <TextView
             android:id="@+id/textViewCobranzas"
-            android:layout_width="198dp"
-            android:layout_height="55dp"
+            android:layout_width="141dp"
+            android:layout_height="38dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
             android:text="Cobranzas"
@@ -36,9 +37,9 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/imageViewCobranzas"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.235"
             app:layout_constraintStart_toEndOf="@+id/imageViewCobranzas"
             app:layout_constraintTop_toTopOf="@+id/imageViewCobranzas" />
-
 
         <ImageView
             android:id="@+id/imageViewDocencia"
@@ -53,8 +54,8 @@
 
         <TextView
             android:id="@+id/textViewDocencia"
-            android:layout_width="198dp"
-            android:layout_height="55dp"
+            android:layout_width="141dp"
+            android:layout_height="41dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
             android:text="Docencia"
@@ -63,8 +64,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/imageViewDocencia"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.235"
             app:layout_constraintStart_toEndOf="@+id/imageViewDocencia"
-            app:layout_constraintTop_toTopOf="@+id/imageViewDocencia" />
+            app:layout_constraintTop_toTopOf="@+id/imageViewDocencia"
+            app:layout_constraintVertical_bias="0.576" />
 
         <ImageView
             android:id="@+id/imageViewAdmision"
@@ -79,7 +82,7 @@
 
         <TextView
             android:id="@+id/textViewAdmision"
-            android:layout_width="198dp"
+            android:layout_width="141dp"
             android:layout_height="55dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
@@ -89,8 +92,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/imageViewAdmision"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.235"
             app:layout_constraintStart_toEndOf="@+id/imageViewAdmision"
-            app:layout_constraintTop_toTopOf="@+id/imageViewAdmision" />
+            app:layout_constraintTop_toTopOf="@+id/imageViewAdmision"
+            app:layout_constraintVertical_bias="0.422" />
 
         <ImageView
             android:id="@+id/imageViewDirServiciosYlogistica"
@@ -105,18 +110,20 @@
 
         <TextView
             android:id="@+id/textViewServiciosYlogistica"
-            android:layout_width="177dp"
-            android:layout_height="96dp"
+            android:layout_width="140dp"
+            android:layout_height="105dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
-            android:text="Direccion de Servicios y Logistica, Direccion de Infraestructura y Equipamiento,Finanzas, Recursos Humanos"
+            android:text="Direccion de Servicios/Logistica, Direccion de Infraestructura y Finanzas"
             android:textColor="#FFFFFF"
-            android:textSize="16sp"
+            android:textSize="14sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/imageViewDirServiciosYlogistica"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.233"
             app:layout_constraintStart_toEndOf="@+id/imageViewDirServiciosYlogistica"
-            app:layout_constraintTop_toTopOf="@+id/imageViewDirServiciosYlogistica" />
+            app:layout_constraintTop_toTopOf="@+id/imageViewDirServiciosYlogistica"
+            app:layout_constraintVertical_bias="0.0" />
 
         <ImageView
             android:id="@+id/imageViewDirAsuntosEstudiantales"
@@ -131,24 +138,79 @@
 
         <TextView
             android:id="@+id/textViewAsuntosEstudiantiles"
-            android:layout_width="177dp"
-            android:layout_height="96dp"
+            android:layout_width="111dp"
+            android:layout_height="101dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
-            android:text="Direccion de Asuntos Estudiantiles, Registraduria y Adquisiciones"
+            android:text="DAE, Registraduria y Adquisiciones"
             android:textColor="#FFFFFF"
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/imageViewDirAsuntosEstudiantales"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.183"
             app:layout_constraintStart_toEndOf="@+id/imageViewDirAsuntosEstudiantales"
-            app:layout_constraintTop_toTopOf="@+id/imageViewDirAsuntosEstudiantales" />
+            app:layout_constraintTop_toTopOf="@+id/imageViewDirAsuntosEstudiantales"
+            app:layout_constraintVertical_bias="0.0" />
 
+        <Button
+            android:id="@+id/btnAdminCobranzas"
+            android:layout_width="53dp"
+            android:layout_height="51dp"
+            app:icon="@drawable/ubicacion"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewCobranzas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textViewCobranzas"
+            app:layout_constraintTop_toTopOf="@+id/textViewCobranzas"
+            app:layout_constraintVertical_bias="1.0" />
 
+        <Button
+            android:id="@+id/btnAdminDocencia"
+            android:layout_width="53dp"
+            android:layout_height="51dp"
+            app:icon="@drawable/ubicacion"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewDocencia"
+            app:layout_constraintEnd_toEndOf="@+id/btnAdminCobranzas"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/btnAdminCobranzas"
+            app:layout_constraintTop_toTopOf="@+id/textViewDocencia"
+            app:layout_constraintVertical_bias="1.0" />
 
+        <Button
+            android:id="@+id/btnAdminExtension"
+            android:layout_width="53dp"
+            android:layout_height="51dp"
+            app:icon="@drawable/ubicacion"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewAdmision"
+            app:layout_constraintEnd_toEndOf="@+id/btnAdminDocencia"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/btnAdminDocencia"
+            app:layout_constraintTop_toTopOf="@+id/textViewAdmision"
+            app:layout_constraintVertical_bias="1.0" />
 
+        <Button
+            android:id="@+id/btnAdminDmz"
+            android:layout_width="53dp"
+            android:layout_height="51dp"
+            app:icon="@drawable/ubicacion"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewServiciosYlogistica"
+            app:layout_constraintEnd_toEndOf="@+id/btnAdminExtension"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/btnAdminExtension"
+            app:layout_constraintTop_toTopOf="@+id/textViewServiciosYlogistica"
+            app:layout_constraintVertical_bias="0.388" />
 
-
+        <Button
+            android:id="@+id/btnAdminDae"
+            android:layout_width="53dp"
+            android:layout_height="51dp"
+            app:icon="@drawable/ubicacion"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewAsuntosEstudiantiles"
+            app:layout_constraintEnd_toEndOf="@+id/btnAdminDmz"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/btnAdminDmz"
+            app:layout_constraintTop_toTopOf="@+id/textViewAsuntosEstudiantiles"
+            app:layout_constraintVertical_bias="0.537" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

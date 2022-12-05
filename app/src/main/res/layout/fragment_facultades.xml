@@ -16,6 +16,46 @@
         android:background="@color/black"
         tools:context=".ui.facultades.FacultadesFragment">
 
+        <Button
+            android:id="@+id/btnFacFacsal1"
+            android:layout_width="48dp"
+            android:layout_height="51dp"
+            app:icon="@drawable/ubicacion"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewFacsal1"
+            app:layout_constraintEnd_toEndOf="@+id/btnFacFacsojour"
+            app:layout_constraintStart_toStartOf="@+id/btnFacFacsojour"
+            app:layout_constraintTop_toTopOf="@+id/textViewFacsal1" />
+
+        <Button
+            android:id="@+id/btnFacFacsal2"
+            android:layout_width="48dp"
+            android:layout_height="51dp"
+            app:icon="@drawable/ubicacion"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewFacsal2"
+            app:layout_constraintEnd_toEndOf="@+id/btnFacFacsal1"
+            app:layout_constraintStart_toStartOf="@+id/btnFacFacsal1"
+            app:layout_constraintTop_toTopOf="@+id/textViewFacsal2" />
+
+        <Button
+            android:id="@+id/btnFacFacsal3"
+            android:layout_width="48dp"
+            android:layout_height="51dp"
+            app:icon="@drawable/ubicacion"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewFacsal3"
+            app:layout_constraintEnd_toEndOf="@+id/btnFacFacsal2"
+            app:layout_constraintStart_toStartOf="@+id/btnFacFacsal2"
+            app:layout_constraintTop_toTopOf="@+id/textViewFacsal3" />
+
+        <Button
+            android:id="@+id/btnFacEdHumanidades"
+            android:layout_width="48dp"
+            android:layout_height="51dp"
+            app:icon="@drawable/ubicacion"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewEdyHumanidades"
+            app:layout_constraintEnd_toEndOf="@+id/btnFacFacsal3"
+            app:layout_constraintStart_toStartOf="@+id/btnFacFacsal3"
+            app:layout_constraintTop_toTopOf="@+id/textViewEdyHumanidades" />
+
         <ImageView
             android:id="@+id/imageViewFacsojur"
             android:layout_width="140dp"
@@ -27,10 +67,11 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+
         <TextView
             android:id="@+id/textView"
-            android:layout_width="198dp"
-            android:layout_height="55dp"
+            android:layout_width="128dp"
+            android:layout_height="31dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
             android:text="Facsojur"
@@ -39,9 +80,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/imageViewFacsojur"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.109"
             app:layout_constraintStart_toEndOf="@+id/imageViewFacsojur"
-            app:layout_constraintTop_toTopOf="@+id/imageViewFacsojur" />
-
+            app:layout_constraintTop_toTopOf="@+id/imageViewFacsojur"
+            app:layout_constraintVertical_bias="0.507" />
 
         <ImageView
             android:id="@+id/imageViewFacsal1"
@@ -54,10 +96,11 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewFacsojur" />
 
+
         <TextView
             android:id="@+id/textViewFacsal1"
-            android:layout_width="198dp"
-            android:layout_height="55dp"
+            android:layout_width="128dp"
+            android:layout_height="31dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
             android:text="Facsal 1"
@@ -66,9 +109,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/imageViewFacsal1"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.109"
             app:layout_constraintStart_toEndOf="@+id/imageViewFacsal1"
-            app:layout_constraintTop_toTopOf="@+id/imageViewFacsal1" />
-
+            app:layout_constraintTop_toTopOf="@+id/imageViewFacsal1"
+            app:layout_constraintVertical_bias="0.579" />
 
         <ImageView
             android:id="@+id/imageViewFacsal2"
@@ -83,8 +127,8 @@
 
         <TextView
             android:id="@+id/textViewFacsal2"
-            android:layout_width="198dp"
-            android:layout_height="55dp"
+            android:layout_width="147dp"
+            android:layout_height="31dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
             android:text="Facsal 2"
@@ -93,8 +137,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/imageViewFacsal2"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.13"
             app:layout_constraintStart_toEndOf="@+id/imageViewFacsal2"
-            app:layout_constraintTop_toTopOf="@+id/imageViewFacsal2" />
+            app:layout_constraintTop_toTopOf="@+id/imageViewFacsal2"
+            app:layout_constraintVertical_bias="0.536" />
 
         <ImageView
             android:id="@+id/imageViewFacsal3"
@@ -109,8 +155,8 @@
 
         <TextView
             android:id="@+id/textViewFacsal3"
-            android:layout_width="198dp"
-            android:layout_height="55dp"
+            android:layout_width="143dp"
+            android:layout_height="39dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
             android:text="Facsal 3"
@@ -119,8 +165,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/imageViewFacsal3"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.125"
             app:layout_constraintStart_toEndOf="@+id/imageViewFacsal3"
-            app:layout_constraintTop_toTopOf="@+id/imageViewFacsal3" />
+            app:layout_constraintTop_toTopOf="@+id/imageViewFacsal3"
+            app:layout_constraintVertical_bias="0.442" />
 
         <ImageView
             android:id="@+id/imageViewEdyHumanidades"
@@ -135,23 +183,33 @@
 
         <TextView
             android:id="@+id/textViewEdyHumanidades"
-            android:layout_width="198dp"
-            android:layout_height="55dp"
+            android:layout_width="153dp"
+            android:layout_height="36dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
-            android:text="Facsal 3"
+            android:text="Educación y Humanidades"
             android:textColor="#FFFFFF"
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/imageViewEdyHumanidades"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.138"
             app:layout_constraintStart_toEndOf="@+id/imageViewEdyHumanidades"
-            app:layout_constraintTop_toTopOf="@+id/imageViewEdyHumanidades" />
+            app:layout_constraintTop_toTopOf="@+id/imageViewEdyHumanidades"
+            app:layout_constraintVertical_bias="0.421" />
+
+        <Button
+            android:id="@+id/btnFacFacsojour"
+            android:layout_width="48dp"
+            android:layout_height="51dp"
+            app:icon="@drawable/ubicacion"
+            app:layout_constraintBottom_toBottomOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
 
 
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 </ScrollView>

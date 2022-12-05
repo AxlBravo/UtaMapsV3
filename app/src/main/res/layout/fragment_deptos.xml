@@ -15,6 +15,54 @@
     tools:context=".ui.gallery.GalleryFragment">
 
 
+    <Button
+        android:id="@+id/btnDeptoMedicina"
+        android:layout_width="51dp"
+        android:layout_height="48dp"
+        app:icon="@drawable/ubicacion"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewMedicina"
+        app:layout_constraintEnd_toEndOf="@+id/btnDeptoIngElectronicaElectricidad"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="@+id/btnDeptoIngElectronicaElectricidad"
+        app:layout_constraintTop_toTopOf="@+id/textViewMedicina"
+        app:layout_constraintVertical_bias="0.541" />
+
+    <Button
+        android:id="@+id/btnDeptoTrabajoSocial"
+        android:layout_width="51dp"
+        android:layout_height="48dp"
+        app:icon="@drawable/ubicacion"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewTrabajoSocial"
+        app:layout_constraintEnd_toEndOf="@+id/btnDeptoMedicina"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="@+id/btnDeptoMedicina"
+        app:layout_constraintTop_toTopOf="@+id/textViewTrabajoSocial"
+        app:layout_constraintVertical_bias="0.541" />
+
+    <Button
+        android:id="@+id/btnDeptoPsicologia"
+        android:layout_width="51dp"
+        android:layout_height="48dp"
+        app:icon="@drawable/ubicacion"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewPsicologia"
+        app:layout_constraintEnd_toEndOf="@+id/btnDeptoTrabajoSocial"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="@+id/btnDeptoTrabajoSocial"
+        app:layout_constraintTop_toTopOf="@+id/textViewPsicologia"
+        app:layout_constraintVertical_bias="0.541" />
+
+    <Button
+        android:id="@+id/btnDeptoLabMecanica"
+        android:layout_width="51dp"
+        android:layout_height="48dp"
+        app:icon="@drawable/ubicacion"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewLaboratorioMecanica"
+        app:layout_constraintEnd_toEndOf="@+id/btnDeptoPsicologia"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="@+id/btnDeptoPsicologia"
+        app:layout_constraintTop_toTopOf="@+id/textViewLaboratorioMecanica"
+        app:layout_constraintVertical_bias="0.541" />
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="140dp"
@@ -39,33 +87,37 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="198dp"
-        android:layout_height="55dp"
+        android:layout_width="139dp"
+        android:layout_height="47dp"
         android:layout_marginStart="8dp"
         android:fontFamily="sans-serif-black"
         android:text="Departamento de Física"
         android:textColor="#FFFFFF"
-        android:textSize="16sp"
+        android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.492" />
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="198dp"
-        android:layout_height="55dp"
+        android:layout_width="134dp"
+        android:layout_height="67dp"
         android:layout_marginStart="8dp"
         android:fontFamily="sans-serif-black"
         android:text="Departamento de Matemáticas"
         android:textColor="#FFFFFF"
-        android:textSize="16sp"
+        android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.159"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
-        app:layout_constraintTop_toTopOf="@+id/imageView4" />
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.606" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -91,23 +143,25 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="198dp"
-        android:layout_height="55dp"
+        android:layout_width="137dp"
+        android:layout_height="56dp"
         android:layout_marginStart="8dp"
         android:fontFamily="sans-serif-black"
         android:text="Departamento de Mecánica"
         android:textColor="#FFFFFF"
-        android:textSize="16sp"
+        android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView6"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
-        app:layout_constraintTop_toTopOf="@+id/imageView6" />
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.772" />
 
     <TextView
         android:id="@+id/textView10"
-        android:layout_width="198dp"
-        android:layout_height="55dp"
+        android:layout_width="124dp"
+        android:layout_height="82dp"
         android:layout_marginStart="8dp"
         android:fontFamily="sans-serif-black"
         android:text="Departamento de Ingeniería Civil en Computación e Informática"
@@ -116,8 +170,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView5"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/imageViewIndustrial"
@@ -132,18 +188,20 @@
 
     <TextView
         android:id="@+id/textViewIndustrial"
-        android:layout_width="198dp"
-        android:layout_height="55dp"
+        android:layout_width="138dp"
+        android:layout_height="50dp"
         android:layout_marginStart="8dp"
         android:fontFamily="sans-serif-black"
         android:text="Departamento de Ingeniería Industrial"
         android:textColor="#FFFFFF"
-        android:textSize="16sp"
+        android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageViewIndustrial"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.165"
         app:layout_constraintStart_toEndOf="@+id/imageViewIndustrial"
-        app:layout_constraintTop_toTopOf="@+id/imageViewIndustrial" />
+        app:layout_constraintTop_toTopOf="@+id/imageViewIndustrial"
+        app:layout_constraintVertical_bias="0.42" />
 
     <ImageView
         android:id="@+id/imageViewEdFisica"
@@ -158,18 +216,20 @@
 
     <TextView
         android:id="@+id/textViewEdFisica"
-        android:layout_width="198dp"
+        android:layout_width="146dp"
         android:layout_height="55dp"
         android:layout_marginStart="8dp"
         android:fontFamily="sans-serif-black"
         android:text="Departamento de Educacion Fisica"
         android:textColor="#FFFFFF"
-        android:textSize="16sp"
+        android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageViewEdFisica"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
         app:layout_constraintStart_toEndOf="@+id/imageViewEdFisica"
-        app:layout_constraintTop_toTopOf="@+id/imageViewEdFisica" />
+        app:layout_constraintTop_toTopOf="@+id/imageViewEdFisica"
+        app:layout_constraintVertical_bias="0.533" />
 
     <ImageView
         android:id="@+id/imageViewElectronicaElectricidad"
@@ -184,8 +244,8 @@
 
     <TextView
         android:id="@+id/textViewElectricidadElectronica"
-        android:layout_width="198dp"
-        android:layout_height="55dp"
+        android:layout_width="131dp"
+        android:layout_height="92dp"
         android:layout_marginStart="8dp"
         android:fontFamily="sans-serif-black"
         android:text="Departamento de Ingenieria Electronica  y Electricidad"
@@ -194,8 +254,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageViewElectronicaElectricidad"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
         app:layout_constraintStart_toEndOf="@+id/imageViewElectronicaElectricidad"
-        app:layout_constraintTop_toTopOf="@+id/imageViewElectronicaElectricidad" />
+        app:layout_constraintTop_toTopOf="@+id/imageViewElectronicaElectricidad"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/imageViewMedicina"
@@ -210,8 +272,8 @@
 
     <TextView
         android:id="@+id/textViewMedicina"
-        android:layout_width="198dp"
-        android:layout_height="55dp"
+        android:layout_width="167dp"
+        android:layout_height="72dp"
         android:layout_marginStart="8dp"
         android:fontFamily="sans-serif-black"
         android:text="Departamento de Medicina"
@@ -220,8 +282,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageViewMedicina"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
         app:layout_constraintStart_toEndOf="@+id/imageViewMedicina"
-        app:layout_constraintTop_toTopOf="@+id/imageViewMedicina" />
+        app:layout_constraintTop_toTopOf="@+id/imageViewMedicina"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/imageViewTrabajoSocial"
@@ -236,8 +300,8 @@
 
     <TextView
         android:id="@+id/textViewTrabajoSocial"
-        android:layout_width="198dp"
-        android:layout_height="55dp"
+        android:layout_width="151dp"
+        android:layout_height="77dp"
         android:layout_marginStart="8dp"
         android:fontFamily="sans-serif-black"
         android:text="Departamento de Trabajo Social"
@@ -246,8 +310,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageViewTrabajoSocial"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
         app:layout_constraintStart_toEndOf="@+id/imageViewTrabajoSocial"
-        app:layout_constraintTop_toTopOf="@+id/imageViewTrabajoSocial" />
+        app:layout_constraintTop_toTopOf="@+id/imageViewTrabajoSocial"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/imageViewPsicologia"
@@ -260,10 +326,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageViewTrabajoSocial" />
 
+
     <TextView
         android:id="@+id/textViewPsicologia"
-        android:layout_width="198dp"
-        android:layout_height="55dp"
+        android:layout_width="159dp"
+        android:layout_height="76dp"
         android:layout_marginStart="8dp"
         android:fontFamily="sans-serif-black"
         android:text="Departamento de Psicologia"
@@ -272,51 +339,26 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageViewPsicologia"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
         app:layout_constraintStart_toEndOf="@+id/imageViewPsicologia"
-        app:layout_constraintTop_toTopOf="@+id/imageViewPsicologia" />
-
-
-    <ImageView
-        android:id="@+id/imageViewMecanica"
-        android:layout_width="140dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="42dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/departamento_mecanica"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewPsicologia" />
-
-    <TextView
-        android:id="@+id/textViewMecanica"
-        android:layout_width="198dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="8dp"
-        android:fontFamily="sans-serif-black"
-        android:text="Departamento de ingenieria mecanica"
-        android:textColor="#FFFFFF"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/imageViewMecanica"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageViewMecanica"
-        app:layout_constraintTop_toTopOf="@+id/imageViewMecanica" />
+        app:layout_constraintTop_toTopOf="@+id/imageViewPsicologia"
+        app:layout_constraintVertical_bias="0.583" />
 
     <ImageView
         android:id="@+id/imageViewLaboratorioMecanica"
         android:layout_width="140dp"
         android:layout_height="100dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="42dp"
+        android:layout_marginTop="44dp"
         android:scaleType="centerCrop"
         android:src="@drawable/laboratorio_mecanica"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewMecanica" />
+        app:layout_constraintTop_toBottomOf="@+id/imageViewPsicologia" />
 
     <TextView
         android:id="@+id/textViewLaboratorioMecanica"
-        android:layout_width="198dp"
-        android:layout_height="55dp"
+        android:layout_width="162dp"
+        android:layout_height="85dp"
         android:layout_marginStart="8dp"
         android:fontFamily="sans-serif-black"
         android:text="Laboratorios integrados de mecanica"
@@ -325,8 +367,93 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageViewLaboratorioMecanica"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
         app:layout_constraintStart_toEndOf="@+id/imageViewLaboratorioMecanica"
-        app:layout_constraintTop_toTopOf="@+id/imageViewLaboratorioMecanica" />
+        app:layout_constraintTop_toTopOf="@+id/imageViewLaboratorioMecanica"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnDeptoFisica"
+        android:layout_width="51dp"
+        android:layout_height="48dp"
+        app:icon="@drawable/ubicacion"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnDeptoMate"
+        android:layout_width="51dp"
+        android:layout_height="48dp"
+        app:icon="@drawable/ubicacion"
+        app:layout_constraintBottom_toBottomOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="@+id/btnDeptoFisica"
+        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintStart_toStartOf="@+id/btnDeptoFisica"
+        app:layout_constraintTop_toTopOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnDeptoIcci"
+        android:layout_width="51dp"
+        android:layout_height="48dp"
+        app:icon="@drawable/ubicacion"
+        app:layout_constraintBottom_toBottomOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="@+id/btnDeptoMate"
+        app:layout_constraintHorizontal_bias="0.703"
+        app:layout_constraintStart_toStartOf="@+id/btnDeptoMate"
+        app:layout_constraintTop_toTopOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.441" />
+
+    <Button
+        android:id="@+id/btnDeptoMecanica"
+        android:layout_width="51dp"
+        android:layout_height="48dp"
+        app:icon="@drawable/ubicacion"
+        app:layout_constraintBottom_toBottomOf="@+id/textView9"
+        app:layout_constraintEnd_toEndOf="@+id/btnDeptoIcci"
+        app:layout_constraintHorizontal_bias="0.703"
+        app:layout_constraintStart_toStartOf="@+id/btnDeptoIcci"
+        app:layout_constraintTop_toTopOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.441" />
+
+    <Button
+        android:id="@+id/btnDeptoIngIndustrial"
+        android:layout_width="51dp"
+        android:layout_height="48dp"
+        app:icon="@drawable/ubicacion"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewIndustrial"
+        app:layout_constraintEnd_toEndOf="@+id/btnDeptoMecanica"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="@+id/btnDeptoMecanica"
+        app:layout_constraintTop_toTopOf="@+id/textViewIndustrial"
+        app:layout_constraintVertical_bias="0.307" />
+
+    <Button
+        android:id="@+id/btnDeptoEdFisica"
+        android:layout_width="51dp"
+        android:layout_height="48dp"
+        app:icon="@drawable/ubicacion"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewEdFisica"
+        app:layout_constraintEnd_toEndOf="@+id/btnDeptoIngIndustrial"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="@+id/btnDeptoIngIndustrial"
+        app:layout_constraintTop_toTopOf="@+id/textViewEdFisica"
+        app:layout_constraintVertical_bias="0.307" />
+
+    <Button
+        android:id="@+id/btnDeptoIngElectronicaElectricidad"
+        android:layout_width="51dp"
+        android:layout_height="48dp"
+        app:icon="@drawable/ubicacion"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewElectricidadElectronica"
+        app:layout_constraintEnd_toEndOf="@+id/btnDeptoEdFisica"
+        app:layout_constraintStart_toStartOf="@+id/btnDeptoEdFisica"
+        app:layout_constraintTop_toTopOf="@+id/textViewElectricidadElectronica"
+        app:layout_constraintVertical_bias="0.545" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
