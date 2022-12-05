@@ -48,7 +48,7 @@ class AnexoFragment : Fragment() {
             startActivity(Intent)
         })
 
-        binding.btnAnexoOficinas.setOnClickListener(View.OnClickListener(){
+        binding.btnAnexoFotocopiadoras.setOnClickListener(View.OnClickListener(){
             val Intent = Intent(activity, MapaGeneral::class.java)
             Intent.putExtra("dir", -18.490156423327846)
             Intent.putExtra("dir2", -70.29691000602902)
