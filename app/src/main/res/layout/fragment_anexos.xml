@@ -135,7 +135,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="52dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/deptomatematicas"
+            android:src="@drawable/fotocopia"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewBodegaDespachoInventario" />
 
@@ -163,7 +163,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="42dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/deptomatematicas"
+            android:src="@drawable/fotocopia"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewFotocopiaSalasClases" />
 
@@ -191,7 +191,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="52dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/deptomatematicas"
+            android:src="@drawable/casino"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewSalaEstudio" />
 
@@ -219,7 +219,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="52dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/deptomatematicas"
+            android:src="@drawable/noimagen"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewCasino" />
 
@@ -247,7 +247,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="52dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/deptomatematicas"
+            android:src="@drawable/noimagen"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewExplora" />
 
@@ -275,7 +275,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="52dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/deptomatematicas"
+            android:src="@drawable/noimagen"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewFEUCH" />
 
@@ -303,7 +303,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="52dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/deptomatematicas"
+            android:src="@drawable/ceinpi"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewPreUniversitario" />
 
