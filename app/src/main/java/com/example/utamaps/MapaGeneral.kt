@@ -80,7 +80,7 @@ class MapaGeneral : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLocat
             //end = ""
             poly?.remove()
             poly = null
-            Toast.makeText(this, "Selecciona un punto de origen y de llegada", Toast.LENGTH_SHORT).show()
+            //Toast.makeText(this, "Selecciona un punto de origen y de llegada", Toast.LENGTH_SHORT).show()
             if (::mMap.isInitialized){
                 mMap.setOnMapClickListener {
                     if (start.isEmpty()){
@@ -334,7 +334,7 @@ class MapaGeneral : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLocat
     }
 
     override fun onMyLocationButtonClick(): Boolean {
-        Toast.makeText(this, "Boton pulsado", Toast.LENGTH_SHORT).show()
+        //Toast.makeText(this, "Boton pulsado", Toast.LENGTH_SHORT).show()
 
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
         try {
