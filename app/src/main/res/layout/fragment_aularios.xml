@@ -21,7 +21,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/deptofisica"
+        android:src="@drawable/aularioa"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -48,7 +48,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="42dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/deptomatematicas"
+        android:src="@drawable/aularioc"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageViewAularioA" />
 
@@ -74,7 +74,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="42dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/deptomatematicas"
+        android:src="@drawable/auladiod"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageViewAularioC" />
 
@@ -84,7 +84,7 @@
         android:layout_height="55dp"
         android:layout_marginStart="8dp"
         android:fontFamily="sans-serif-black"
-        android:text="Aulario C"
+        android:text="Aulario D"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
