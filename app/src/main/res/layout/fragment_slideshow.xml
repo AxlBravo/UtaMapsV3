@@ -28,91 +28,54 @@
 
     <TextView
         android:id="@+id/mesaCentral"
-        android:layout_width="95dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="76dp"
-        android:layout_marginTop="84dp"
+        android:layout_width="170dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="16dp"
         android:rotationX="0"
         android:rotationY="0"
         android:text="Mesa Central"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textSize="16sp"
+        android:textSize="26dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
-
-    <TextView
-        android:id="@+id/sedeiquique"
-        android:layout_width="91dp"
-        android:layout_height="36dp"
-        android:layout_marginTop="88dp"
-        android:layout_marginEnd="40dp"
-        android:text="Sede Iquique"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="150dp"
-        android:layout_height="38dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="48dp"
+        android:layout_width="197dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="64dp"
         android:ems="10"
         android:inputType="textEmailAddress"
         android:text="mesacentral@uta.cl"
-        android:textSize="16sp"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mesaCentral" />
-
-    <EditText
-        android:id="@+id/editTextTextEmailAddress2"
-        android:layout_width="150dp"
-        android:layout_height="38dp"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="12dp"
-        android:ems="10"
-        android:inputType="textEmailAddress"
-        android:text="direseciqq@uta.cl"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sedeiquique" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <EditText
         android:id="@+id/editTextPhone"
-        android:layout_width="150dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="52dp"
+        android:layout_width="188dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="112dp"
         android:ems="10"
         android:inputType="phone"
         android:text="(+56) 582205100"
         android:textAllCaps="false"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
-
-    <EditText
-        android:id="@+id/editTextPhone2"
-        android:layout_width="150dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="12dp"
-        android:ems="10"
-        android:inputType="phone"
-        android:text="(+56)572727100"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="326dp"
+        android:layout_height="89dp"
         android:layout_marginTop="28dp"
         android:singleLine="false"
         android:text="Mapa Universidad Saucache"
         android:textAllCaps="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textSize="20sp"
+        android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -120,66 +83,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="84dp"
-        android:src="@drawable/icons8_house_48"
-        app:layout_constraintEnd_toStartOf="@+id/mesaCentral"
-        app:layout_constraintHorizontal_bias="0.285"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="85dp"
-        android:layout_marginEnd="20dp"
-        android:src="@drawable/icons8_house_48"
-        app:layout_constraintEnd_toStartOf="@+id/sedeiquique"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:src="@android:drawable/ic_dialog_email"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintHorizontal_bias="0.333"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
-
-    <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="12dp"
-        android:src="@android:drawable/ic_dialog_email"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextEmailAddress2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
-
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:src="@android:drawable/ic_menu_call"
-        app:layout_constraintEnd_toStartOf="@+id/editTextPhone"
+        android:layout_width="104dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="72dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
-
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="4dp"
-        android:src="@android:drawable/ic_menu_call"
-        app:layout_constraintEnd_toStartOf="@+id/editTextPhone2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/informacioncontacto" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
