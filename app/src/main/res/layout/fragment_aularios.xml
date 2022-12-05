@@ -25,10 +25,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <TextView
         android:id="@+id/textViewAularioA"
-        android:layout_width="198dp"
-        android:layout_height="55dp"
+        android:layout_width="133dp"
+        android:layout_height="58dp"
         android:layout_marginStart="8dp"
         android:fontFamily="sans-serif-black"
         android:text="Aulario A"
@@ -37,9 +38,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageViewAularioA"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
         app:layout_constraintStart_toEndOf="@+id/imageViewAularioA"
-        app:layout_constraintTop_toTopOf="@+id/imageViewAularioA" />
-
+        app:layout_constraintTop_toTopOf="@+id/imageViewAularioA"
+        app:layout_constraintVertical_bias="0.523" />
 
     <ImageView
         android:id="@+id/imageViewAularioC"
@@ -54,8 +56,8 @@
 
     <TextView
         android:id="@+id/textViewAularioC"
-        android:layout_width="198dp"
-        android:layout_height="55dp"
+        android:layout_width="126dp"
+        android:layout_height="53dp"
         android:layout_marginStart="8dp"
         android:fontFamily="sans-serif-black"
         android:text="Aulario C"
@@ -64,8 +66,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageViewAularioC"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.206"
         app:layout_constraintStart_toEndOf="@+id/imageViewAularioC"
-        app:layout_constraintTop_toTopOf="@+id/imageViewAularioC" />
+        app:layout_constraintTop_toTopOf="@+id/imageViewAularioC"
+        app:layout_constraintVertical_bias="0.617" />
 
     <ImageView
         android:id="@+id/imageViewAularioD"
@@ -80,8 +84,8 @@
 
     <TextView
         android:id="@+id/textViewAularioD"
-        android:layout_width="198dp"
-        android:layout_height="55dp"
+        android:layout_width="125dp"
+        android:layout_height="48dp"
         android:layout_marginStart="8dp"
         android:fontFamily="sans-serif-black"
         android:text="Aulario D"
@@ -90,8 +94,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageViewAularioD"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.204"
         app:layout_constraintStart_toEndOf="@+id/imageViewAularioD"
-        app:layout_constraintTop_toTopOf="@+id/imageViewAularioD" />
+        app:layout_constraintTop_toTopOf="@+id/imageViewAularioD"
+        app:layout_constraintVertical_bias="0.403" />
 
     <ImageView
         android:id="@+id/imageViewAularioSigloXXI"
@@ -106,8 +112,8 @@
 
     <TextView
         android:id="@+id/textViewAularioSigloXXI"
-        android:layout_width="198dp"
-        android:layout_height="55dp"
+        android:layout_width="140dp"
+        android:layout_height="56dp"
         android:layout_marginStart="8dp"
         android:fontFamily="sans-serif-black"
         android:text="Aulario Siglo XXI"
@@ -116,8 +122,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageViewAularioSigloXXI"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.233"
         app:layout_constraintStart_toEndOf="@+id/imageViewAularioSigloXXI"
-        app:layout_constraintTop_toTopOf="@+id/imageViewAularioSigloXXI" />
+        app:layout_constraintTop_toTopOf="@+id/imageViewAularioSigloXXI"
+        app:layout_constraintVertical_bias="0.681" />
 
     <ImageView
         android:id="@+id/imageViewAularioOvidioSotoMayor"
@@ -125,15 +133,17 @@
         android:layout_height="100dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="42dp"
+        android:layout_marginBottom="60dp"
         android:scaleType="centerCrop"
         android:src="@drawable/noimagen"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageViewAularioSigloXXI" />
 
     <TextView
         android:id="@+id/textViewAularioOvidioSotoMayor"
-        android:layout_width="198dp"
-        android:layout_height="55dp"
+        android:layout_width="152dp"
+        android:layout_height="71dp"
         android:layout_marginStart="8dp"
         android:fontFamily="sans-serif-black"
         android:text="Aulario Ovidio SotoMayor"
@@ -142,8 +152,60 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageViewAularioOvidioSotoMayor"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.263"
         app:layout_constraintStart_toEndOf="@+id/imageViewAularioOvidioSotoMayor"
-        app:layout_constraintTop_toTopOf="@+id/imageViewAularioOvidioSotoMayor" />
+        app:layout_constraintTop_toTopOf="@+id/imageViewAularioOvidioSotoMayor"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnAularioA"
+        android:layout_width="48dp"
+        android:layout_height="52dp"
+        app:icon="@drawable/ubicacion"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewAularioA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewAularioA"
+        app:layout_constraintTop_toTopOf="@+id/textViewAularioA" />
+
+    <Button
+        android:id="@+id/btnAularioC"
+        android:layout_width="48dp"
+        android:layout_height="52dp"
+        app:icon="@drawable/ubicacion"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewAularioC"
+        app:layout_constraintEnd_toEndOf="@+id/btnAularioA"
+        app:layout_constraintStart_toStartOf="@+id/btnAularioA"
+        app:layout_constraintTop_toTopOf="@+id/textViewAularioC" />
+
+    <Button
+        android:id="@+id/btnAularioD"
+        android:layout_width="48dp"
+        android:layout_height="52dp"
+        app:icon="@drawable/ubicacion"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewAularioD"
+        app:layout_constraintEnd_toEndOf="@+id/btnAularioC"
+        app:layout_constraintStart_toStartOf="@+id/btnAularioC"
+        app:layout_constraintTop_toTopOf="@+id/textViewAularioD" />
+
+    <Button
+        android:id="@+id/btnAularioSigloXXI"
+        android:layout_width="48dp"
+        android:layout_height="52dp"
+        app:icon="@drawable/ubicacion"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewAularioSigloXXI"
+        app:layout_constraintEnd_toEndOf="@+id/btnAularioD"
+        app:layout_constraintStart_toStartOf="@+id/btnAularioD"
+        app:layout_constraintTop_toTopOf="@+id/textViewAularioSigloXXI" />
+
+    <Button
+        android:id="@+id/btnAularioOvidio"
+        android:layout_width="48dp"
+        android:layout_height="52dp"
+        app:icon="@drawable/ubicacion"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewAularioOvidioSotoMayor"
+        app:layout_constraintEnd_toEndOf="@+id/btnAularioSigloXXI"
+        app:layout_constraintStart_toStartOf="@+id/btnAularioSigloXXI"
+        app:layout_constraintTop_toTopOf="@+id/textViewAularioOvidioSotoMayor" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
