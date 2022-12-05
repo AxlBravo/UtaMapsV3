@@ -17,6 +17,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:background="#201D1D"
-        android:text="Calcular Ruta" />
+        android:text="Trazar Ruta" />
 
 </FrameLayout>

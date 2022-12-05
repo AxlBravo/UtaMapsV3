@@ -153,10 +153,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintHorizontal_bias="0.136"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
         app:layout_constraintTop_toTopOf="@+id/imageView6"
-        app:layout_constraintVertical_bias="0.772" />
+        app:layout_constraintVertical_bias="0.613" />
 
     <TextView
         android:id="@+id/textView10"
@@ -417,10 +417,10 @@
         app:icon="@drawable/ubicacion"
         app:layout_constraintBottom_toBottomOf="@+id/textView9"
         app:layout_constraintEnd_toEndOf="@+id/btnDeptoIcci"
-        app:layout_constraintHorizontal_bias="0.703"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/btnDeptoIcci"
         app:layout_constraintTop_toTopOf="@+id/textView9"
-        app:layout_constraintVertical_bias="0.441" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btnDeptoIngIndustrial"
@@ -429,10 +429,10 @@
         app:icon="@drawable/ubicacion"
         app:layout_constraintBottom_toBottomOf="@+id/textViewIndustrial"
         app:layout_constraintEnd_toEndOf="@+id/btnDeptoMecanica"
-        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/btnDeptoMecanica"
         app:layout_constraintTop_toTopOf="@+id/textViewIndustrial"
-        app:layout_constraintVertical_bias="0.307" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btnDeptoEdFisica"
