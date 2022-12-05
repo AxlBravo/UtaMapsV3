@@ -21,9 +21,9 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/aularioa"
+        android:src="@drawable/deptofisica"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"  />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textViewAularioA"
@@ -39,6 +39,111 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageViewAularioA"
         app:layout_constraintTop_toTopOf="@+id/imageViewAularioA" />
+
+
+    <ImageView
+        android:id="@+id/imageViewAularioC"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="42dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/deptomatematicas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewAularioA" />
+
+    <TextView
+        android:id="@+id/textViewAularioC"
+        android:layout_width="198dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Aulario C"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewAularioC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewAularioC"
+        app:layout_constraintTop_toTopOf="@+id/imageViewAularioC" />
+
+    <ImageView
+        android:id="@+id/imageViewAularioD"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="42dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/deptomatematicas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewAularioC" />
+
+    <TextView
+        android:id="@+id/textViewAularioD"
+        android:layout_width="198dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Aulario C"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewAularioD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewAularioD"
+        app:layout_constraintTop_toTopOf="@+id/imageViewAularioD" />
+
+    <ImageView
+        android:id="@+id/imageViewAularioSigloXXI"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="42dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/deptomatematicas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewAularioD" />
+
+    <TextView
+        android:id="@+id/textViewAularioSigloXXI"
+        android:layout_width="198dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Aulario Siglo XXI"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewAularioSigloXXI"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewAularioSigloXXI"
+        app:layout_constraintTop_toTopOf="@+id/imageViewAularioSigloXXI" />
+
+    <ImageView
+        android:id="@+id/imageViewAularioOvidioSotoMayor"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="42dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/deptomatematicas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewAularioSigloXXI" />
+
+    <TextView
+        android:id="@+id/textViewAularioOvidioSotoMayor"
+        android:layout_width="198dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Aulario Ovidio SotoMayor"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewAularioOvidioSotoMayor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewAularioOvidioSotoMayor"
+        app:layout_constraintTop_toTopOf="@+id/imageViewAularioOvidioSotoMayor" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
