@@ -20,7 +20,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/deptomatematicas"
+            android:src="@drawable/biblioteca"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -49,7 +49,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="42dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/deptomatematicas"
+            android:src="@drawable/veronicarei"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewBibliotecaCentral" />
 
@@ -77,7 +77,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="42dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/deptomatematicas"
+            android:src="@drawable/noimagen"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewVeronicaRey" />
 
