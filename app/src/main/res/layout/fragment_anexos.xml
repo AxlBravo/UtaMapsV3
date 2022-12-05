@@ -24,10 +24,11 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+
         <TextView
             android:id="@+id/textViewBibliotecaCentral"
-            android:layout_width="198dp"
-            android:layout_height="55dp"
+            android:layout_width="163dp"
+            android:layout_height="45dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
             android:text="Biblioteca Central"
@@ -36,9 +37,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/imageViewBibliotecaCentral"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.109"
             app:layout_constraintStart_toEndOf="@+id/imageViewBibliotecaCentral"
-            app:layout_constraintTop_toTopOf="@+id/imageViewBibliotecaCentral" />
-
+            app:layout_constraintTop_toTopOf="@+id/imageViewBibliotecaCentral"
+            app:layout_constraintVertical_bias="0.6" />
 
         <ImageView
             android:id="@+id/imageViewVeronicaRey"
@@ -53,8 +55,8 @@
 
         <TextView
             android:id="@+id/textViewVeronicaRey"
-            android:layout_width="198dp"
-            android:layout_height="55dp"
+            android:layout_width="161dp"
+            android:layout_height="47dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
             android:text="Dirección de Equidad de Genero"
@@ -63,8 +65,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/imageViewVeronicaRey"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.106"
             app:layout_constraintStart_toEndOf="@+id/imageViewVeronicaRey"
-            app:layout_constraintTop_toTopOf="@+id/imageViewVeronicaRey" />
+            app:layout_constraintTop_toTopOf="@+id/imageViewVeronicaRey"
+            app:layout_constraintVertical_bias="0.603" />
 
         <ImageView
             android:id="@+id/imageViewBodegaDespachoInventario"
@@ -79,8 +83,8 @@
 
         <TextView
             android:id="@+id/textViewBodegaDespachoInventario"
-            android:layout_width="198dp"
-            android:layout_height="55dp"
+            android:layout_width="135dp"
+            android:layout_height="50dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
             android:text="Bodega, Despacho e Inventario"
@@ -89,8 +93,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/imageViewBodegaDespachoInventario"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.079"
             app:layout_constraintStart_toEndOf="@+id/imageViewBodegaDespachoInventario"
-            app:layout_constraintTop_toTopOf="@+id/imageViewBodegaDespachoInventario" />
+            app:layout_constraintTop_toTopOf="@+id/imageViewBodegaDespachoInventario"
+            app:layout_constraintVertical_bias="0.7" />
 
         <ImageView
             android:id="@+id/imageViewOficinasyBodegas"
@@ -105,8 +111,8 @@
 
         <TextView
             android:id="@+id/textViewOficinasBodegas"
-            android:layout_width="198dp"
-            android:layout_height="55dp"
+            android:layout_width="138dp"
+            android:layout_height="42dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
             android:text="Oficinas y Bodegas"
@@ -115,50 +121,25 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/imageViewOficinasyBodegas"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.081"
             app:layout_constraintStart_toEndOf="@+id/imageViewOficinasyBodegas"
-            app:layout_constraintTop_toTopOf="@+id/imageViewOficinasyBodegas" />
-
-        <ImageView
-            android:id="@+id/imageViewServiciosHigienicos"
-            android:layout_width="140dp"
-            android:layout_height="100dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="42dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/deptomatematicas"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewOficinasyBodegas" />
-
-        <TextView
-            android:id="@+id/textViewServiciosHigienicos"
-            android:layout_width="198dp"
-            android:layout_height="55dp"
-            android:layout_marginStart="8dp"
-            android:fontFamily="sans-serif-black"
-            android:text="Oficinas y Bodegas"
-            android:textColor="#FFFFFF"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@+id/imageViewServiciosHigienicos"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageViewServiciosHigienicos"
-            app:layout_constraintTop_toTopOf="@+id/imageViewServiciosHigienicos" />
+            app:layout_constraintTop_toTopOf="@+id/imageViewOficinasyBodegas"
+            app:layout_constraintVertical_bias="0.689" />
 
         <ImageView
             android:id="@+id/imageViewFotocopiaSalasClases"
             android:layout_width="140dp"
             android:layout_height="100dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="42dp"
             android:scaleType="centerCrop"
             android:src="@drawable/deptomatematicas"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewServiciosHigienicos" />
+            tools:layout_editor_absoluteY="726dp" />
 
         <TextView
             android:id="@+id/textViewFotocopiasSalasClases"
-            android:layout_width="198dp"
-            android:layout_height="55dp"
+            android:layout_width="158dp"
+            android:layout_height="74dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
             android:text="Fotocopiadoras y salas de clases"
@@ -167,8 +148,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/imageViewFotocopiaSalasClases"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.192"
             app:layout_constraintStart_toEndOf="@+id/imageViewFotocopiaSalasClases"
-            app:layout_constraintTop_toTopOf="@+id/imageViewFotocopiaSalasClases" />
+            app:layout_constraintTop_toTopOf="@+id/imageViewFotocopiaSalasClases"
+            app:layout_constraintVertical_bias="1.0" />
 
         <ImageView
             android:id="@+id/imageViewSalaEstudio"
@@ -183,8 +166,8 @@
 
         <TextView
             android:id="@+id/textViewSalasEstudio"
-            android:layout_width="198dp"
-            android:layout_height="55dp"
+            android:layout_width="134dp"
+            android:layout_height="57dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
             android:text="Salas de Estudio"
@@ -193,8 +176,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/imageViewSalaEstudio"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.147"
             app:layout_constraintStart_toEndOf="@+id/imageViewSalaEstudio"
-            app:layout_constraintTop_toTopOf="@+id/imageViewSalaEstudio" />
+            app:layout_constraintTop_toTopOf="@+id/imageViewSalaEstudio"
+            app:layout_constraintVertical_bias="0.581" />
 
         <ImageView
             android:id="@+id/imageViewCasino"
@@ -209,8 +194,8 @@
 
         <TextView
             android:id="@+id/textViewCasino"
-            android:layout_width="198dp"
-            android:layout_height="55dp"
+            android:layout_width="100dp"
+            android:layout_height="33dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
             android:text="Casino"
@@ -219,8 +204,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/imageViewCasino"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.139"
             app:layout_constraintStart_toEndOf="@+id/imageViewCasino"
-            app:layout_constraintTop_toTopOf="@+id/imageViewCasino" />
+            app:layout_constraintTop_toTopOf="@+id/imageViewCasino"
+            app:layout_constraintVertical_bias="0.462" />
 
         <ImageView
             android:id="@+id/imageViewExplora"
@@ -235,8 +222,8 @@
 
         <TextView
             android:id="@+id/textViewExplora"
-            android:layout_width="198dp"
-            android:layout_height="55dp"
+            android:layout_width="134dp"
+            android:layout_height="36dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
             android:text="Explora"
@@ -245,8 +232,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/imageViewExplora"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.147"
             app:layout_constraintStart_toEndOf="@+id/imageViewExplora"
-            app:layout_constraintTop_toTopOf="@+id/imageViewExplora" />
+            app:layout_constraintTop_toTopOf="@+id/imageViewExplora"
+            app:layout_constraintVertical_bias="0.625" />
 
         <ImageView
             android:id="@+id/imageViewFEUCH"
@@ -261,8 +250,8 @@
 
         <TextView
             android:id="@+id/textViewFEUCH"
-            android:layout_width="198dp"
-            android:layout_height="55dp"
+            android:layout_width="154dp"
+            android:layout_height="31dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
             android:text="FEUCH"
@@ -271,8 +260,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/imageViewFEUCH"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.182"
             app:layout_constraintStart_toEndOf="@+id/imageViewFEUCH"
-            app:layout_constraintTop_toTopOf="@+id/imageViewFEUCH" />
+            app:layout_constraintTop_toTopOf="@+id/imageViewFEUCH"
+            app:layout_constraintVertical_bias="0.579" />
 
         <ImageView
             android:id="@+id/imageViewPreUniversitario"
@@ -287,8 +278,8 @@
 
         <TextView
             android:id="@+id/textViewPreUniversitario"
-            android:layout_width="198dp"
-            android:layout_height="55dp"
+            android:layout_width="144dp"
+            android:layout_height="29dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
             android:text="Pre Universitario"
@@ -297,38 +288,79 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/imageViewPreUniversitario"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.163"
             app:layout_constraintStart_toEndOf="@+id/imageViewPreUniversitario"
-            app:layout_constraintTop_toTopOf="@+id/imageViewPreUniversitario" />
+            app:layout_constraintTop_toTopOf="@+id/imageViewPreUniversitario"
+            app:layout_constraintVertical_bias="0.478" />
 
         <ImageView
             android:id="@+id/imageViewCEINPSI"
             android:layout_width="140dp"
             android:layout_height="100dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="42dp"
             android:scaleType="centerCrop"
             android:src="@drawable/deptomatematicas"
+            app:layout_constraintBottom_toTopOf="@+id/imageViewFotocopiaSalasClases"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewPreUniversitario" />
+            app:layout_constraintTop_toBottomOf="@+id/imageViewOficinasyBodegas" />
 
         <TextView
             android:id="@+id/textViewCEINPSI"
-            android:layout_width="198dp"
-            android:layout_height="55dp"
+            android:layout_width="109dp"
+            android:layout_height="41dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
-            android:text="Psicología CEINPSI"
+            android:text="CEINPSI"
             android:textColor="#FFFFFF"
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/imageViewCEINPSI"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.118"
             app:layout_constraintStart_toEndOf="@+id/imageViewCEINPSI"
-            app:layout_constraintTop_toTopOf="@+id/imageViewCEINPSI" />
+            app:layout_constraintTop_toTopOf="@+id/imageViewCEINPSI"
+            app:layout_constraintVertical_bias="0.457" />
 
+        <Button
+            android:id="@+id/btnAnexoBiblioteca"
+            android:layout_width="45dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="3dp"
+            app:icon="@drawable/ubicacion"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewBibliotecaCentral"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textViewBibliotecaCentral"
+            app:layout_constraintTop_toTopOf="@+id/textViewBibliotecaCentral" />
 
+        <Button
+            android:id="@+id/btnAnexoDirGenero"
+            android:layout_width="45dp"
+            android:layout_height="47dp"
+            app:icon="@drawable/ubicacion"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewVeronicaRey"
+            app:layout_constraintEnd_toEndOf="@+id/btnAnexoBiblioteca"
+            app:layout_constraintStart_toStartOf="@+id/btnAnexoBiblioteca"
+            app:layout_constraintTop_toTopOf="@+id/textViewVeronicaRey" />
 
+        <Button
+            android:id="@+id/btnAnexoBodega"
+            android:layout_width="45dp"
+            android:layout_height="47dp"
+            app:icon="@drawable/ubicacion"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewBodegaDespachoInventario"
+            app:layout_constraintEnd_toEndOf="@+id/btnAnexoDirGenero"
+            app:layout_constraintStart_toStartOf="@+id/btnAnexoDirGenero"
+            app:layout_constraintTop_toTopOf="@+id/textViewBodegaDespachoInventario" />
 
+        <Button
+            android:id="@+id/btnAnexoOficinas"
+            android:layout_width="45dp"
+            android:layout_height="47dp"
+            app:icon="@drawable/ubicacion"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewOficinasBodegas"
+            app:layout_constraintEnd_toEndOf="@+id/btnAnexoBodega"
+            app:layout_constraintStart_toStartOf="@+id/btnAnexoBodega"
+            app:layout_constraintTop_toTopOf="@+id/textViewOficinasBodegas" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
