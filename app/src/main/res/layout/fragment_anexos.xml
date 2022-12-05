@@ -361,8 +361,9 @@
             android:layout_height="47dp"
             app:icon="@drawable/ubicacion"
             app:layout_constraintBottom_toBottomOf="@+id/textViewFotocopiasSalasClases"
-            app:layout_constraintTop_toTopOf="@+id/textViewFotocopiasSalasClases"
-            tools:layout_editor_absoluteX="347dp" />
+            app:layout_constraintEnd_toEndOf="@+id/btnAnexoBodega"
+            app:layout_constraintStart_toStartOf="@+id/btnAnexoBodega"
+            app:layout_constraintTop_toTopOf="@+id/textViewFotocopiasSalasClases" />
 
         <Button
             android:id="@+id/btnAnexoSalaEstudio"

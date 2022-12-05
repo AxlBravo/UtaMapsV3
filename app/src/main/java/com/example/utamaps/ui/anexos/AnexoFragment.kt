@@ -50,8 +50,50 @@ class AnexoFragment : Fragment() {
 
         binding.btnAnexoFotocopiadoras.setOnClickListener(View.OnClickListener(){
             val Intent = Intent(activity, MapaGeneral::class.java)
-            Intent.putExtra("dir", -18.490156423327846)
-            Intent.putExtra("dir2", -70.29691000602902)
+            Intent.putExtra("dir", -18.490588860011812)
+            Intent.putExtra("dir2", -70.29685099743075)
+            startActivity(Intent)
+        })
+
+        binding.btnAnexoSalaEstudio.setOnClickListener(View.OnClickListener(){
+            val Intent = Intent(activity, MapaGeneral::class.java)
+            Intent.putExtra("dir", -18.48873952807754)
+            Intent.putExtra("dir2", -70.29515632424628)
+            startActivity(Intent)
+        })
+
+        binding.btnAnexoCasino.setOnClickListener(View.OnClickListener(){
+            val Intent = Intent(activity, MapaGeneral::class.java)
+            Intent.putExtra("dir", -18.488792947227097)
+            Intent.putExtra("dir2", -70.29493370089804)
+            startActivity(Intent)
+        })
+
+        binding.btnAnexoExplora.setOnClickListener(View.OnClickListener(){
+            val Intent = Intent(activity, MapaGeneral::class.java)
+            Intent.putExtra("dir", -18.488449548881064)
+            Intent.putExtra("dir2", -70.29457929995948)
+            startActivity(Intent)
+        })
+
+        binding.btnAnexoFeuch.setOnClickListener(View.OnClickListener(){
+            val Intent = Intent(activity, MapaGeneral::class.java)
+            Intent.putExtra("dir", -18.488500413577974)
+            Intent.putExtra("dir2", -70.29479422602915)
+            startActivity(Intent)
+        })
+
+        binding.btnAnexoPreUniversitario.setOnClickListener(View.OnClickListener(){
+            val Intent = Intent(activity, MapaGeneral::class.java)
+            Intent.putExtra("dir", -18.488349684672784)
+            Intent.putExtra("dir2", -70.29471238608228)
+            startActivity(Intent)
+        })
+
+        binding.btnAnexoPreUniversitario.setOnClickListener(View.OnClickListener(){
+            val Intent = Intent(activity, MapaGeneral::class.java)
+            Intent.putExtra("dir", -18.491762981042996)
+            Intent.putExtra("dir2", -70.29631605659635)
             startActivity(Intent)
         })
 
