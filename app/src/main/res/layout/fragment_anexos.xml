@@ -20,8 +20,10 @@
             app:icon="@drawable/ubicacion"
             app:layout_constraintBottom_toBottomOf="@+id/textViewFEUCH"
             app:layout_constraintEnd_toEndOf="@+id/btnAnexoExplora"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/btnAnexoExplora"
-            app:layout_constraintTop_toTopOf="@+id/textViewFEUCH" />
+            app:layout_constraintTop_toTopOf="@+id/textViewFEUCH"
+            app:layout_constraintVertical_bias="1.0" />
 
         <Button
             android:id="@+id/btnAnexoPreUniversitario"
@@ -40,8 +42,10 @@
             app:icon="@drawable/ubicacion"
             app:layout_constraintBottom_toBottomOf="@+id/textViewCEINPSI"
             app:layout_constraintEnd_toEndOf="@+id/btnAnexoPreUniversitario"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/btnAnexoPreUniversitario"
-            app:layout_constraintTop_toTopOf="@+id/textViewCEINPSI" />
+            app:layout_constraintTop_toTopOf="@+id/textViewCEINPSI"
+            app:layout_constraintVertical_bias="0.555" />
 
         <ImageView
             android:id="@+id/imageViewBibliotecaCentral"
@@ -57,8 +61,8 @@
 
         <TextView
             android:id="@+id/textViewBibliotecaCentral"
-            android:layout_width="163dp"
-            android:layout_height="45dp"
+            android:layout_width="167dp"
+            android:layout_height="30dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
             android:text="Biblioteca Central"
@@ -67,10 +71,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/imageViewBibliotecaCentral"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.109"
+            app:layout_constraintHorizontal_bias="0.107"
             app:layout_constraintStart_toEndOf="@+id/imageViewBibliotecaCentral"
             app:layout_constraintTop_toTopOf="@+id/imageViewBibliotecaCentral"
-            app:layout_constraintVertical_bias="0.6" />
+            app:layout_constraintVertical_bias="0.655" />
 
         <ImageView
             android:id="@+id/imageViewVeronicaRey"
@@ -85,8 +89,8 @@
 
         <TextView
             android:id="@+id/textViewVeronicaRey"
-            android:layout_width="161dp"
-            android:layout_height="47dp"
+            android:layout_width="168dp"
+            android:layout_height="41dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
             android:text="Dirección de Equidad de Genero"
@@ -133,7 +137,7 @@
             android:layout_width="140dp"
             android:layout_height="100dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="52dp"
+            android:layout_marginTop="42dp"
             android:scaleType="centerCrop"
             android:src="@drawable/fotocopia"
             app:layout_constraintStart_toStartOf="parent"
@@ -169,8 +173,8 @@
 
         <TextView
             android:id="@+id/textViewSalasEstudio"
-            android:layout_width="134dp"
-            android:layout_height="57dp"
+            android:layout_width="136dp"
+            android:layout_height="36dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
             android:text="Salas de Estudio"
@@ -189,7 +193,7 @@
             android:layout_width="140dp"
             android:layout_height="100dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="52dp"
+            android:layout_marginTop="42dp"
             android:scaleType="centerCrop"
             android:src="@drawable/casino"
             app:layout_constraintStart_toStartOf="parent"
@@ -217,7 +221,7 @@
             android:layout_width="140dp"
             android:layout_height="100dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="52dp"
+            android:layout_marginTop="42dp"
             android:scaleType="centerCrop"
             android:src="@drawable/noimagen"
             app:layout_constraintStart_toStartOf="parent"
@@ -245,7 +249,7 @@
             android:layout_width="140dp"
             android:layout_height="100dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="52dp"
+            android:layout_marginTop="42dp"
             android:scaleType="centerCrop"
             android:src="@drawable/noimagen"
             app:layout_constraintStart_toStartOf="parent"
@@ -273,7 +277,7 @@
             android:layout_width="140dp"
             android:layout_height="100dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="52dp"
+            android:layout_marginTop="42dp"
             android:scaleType="centerCrop"
             android:src="@drawable/noimagen"
             app:layout_constraintStart_toStartOf="parent"
@@ -301,16 +305,18 @@
             android:layout_width="140dp"
             android:layout_height="100dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="52dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginBottom="60dp"
             android:scaleType="centerCrop"
             android:src="@drawable/ceinpi"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewPreUniversitario" />
 
         <TextView
             android:id="@+id/textViewCEINPSI"
-            android:layout_width="109dp"
-            android:layout_height="41dp"
+            android:layout_width="120dp"
+            android:layout_height="29dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
             android:text="CEINPSI"
@@ -332,8 +338,10 @@
             app:icon="@drawable/ubicacion"
             app:layout_constraintBottom_toBottomOf="@+id/textViewBibliotecaCentral"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.522"
             app:layout_constraintStart_toEndOf="@+id/textViewBibliotecaCentral"
-            app:layout_constraintTop_toTopOf="@+id/textViewBibliotecaCentral" />
+            app:layout_constraintTop_toTopOf="@+id/textViewBibliotecaCentral"
+            app:layout_constraintVertical_bias="0.588" />
 
         <Button
             android:id="@+id/btnAnexoDirGenero"
@@ -342,8 +350,10 @@
             app:icon="@drawable/ubicacion"
             app:layout_constraintBottom_toBottomOf="@+id/textViewVeronicaRey"
             app:layout_constraintEnd_toEndOf="@+id/btnAnexoBiblioteca"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/btnAnexoBiblioteca"
-            app:layout_constraintTop_toTopOf="@+id/textViewVeronicaRey" />
+            app:layout_constraintTop_toTopOf="@+id/textViewVeronicaRey"
+            app:layout_constraintVertical_bias="1.0" />
 
         <Button
             android:id="@+id/btnAnexoBodega"
@@ -352,8 +362,10 @@
             app:icon="@drawable/ubicacion"
             app:layout_constraintBottom_toBottomOf="@+id/textViewBodegaDespachoInventario"
             app:layout_constraintEnd_toEndOf="@+id/btnAnexoDirGenero"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/btnAnexoDirGenero"
-            app:layout_constraintTop_toTopOf="@+id/textViewBodegaDespachoInventario" />
+            app:layout_constraintTop_toTopOf="@+id/textViewBodegaDespachoInventario"
+            app:layout_constraintVertical_bias="0.0" />
 
         <Button
             android:id="@+id/btnAnexoFotocopiadoras"
@@ -362,8 +374,10 @@
             app:icon="@drawable/ubicacion"
             app:layout_constraintBottom_toBottomOf="@+id/textViewFotocopiasSalasClases"
             app:layout_constraintEnd_toEndOf="@+id/btnAnexoBodega"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/btnAnexoBodega"
-            app:layout_constraintTop_toTopOf="@+id/textViewFotocopiasSalasClases" />
+            app:layout_constraintTop_toTopOf="@+id/textViewFotocopiasSalasClases"
+            app:layout_constraintVertical_bias="0.0" />
 
         <Button
             android:id="@+id/btnAnexoSalaEstudio"
@@ -372,8 +386,10 @@
             app:icon="@drawable/ubicacion"
             app:layout_constraintBottom_toBottomOf="@+id/textViewSalasEstudio"
             app:layout_constraintEnd_toEndOf="@+id/btnAnexoFotocopiadoras"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/btnAnexoFotocopiadoras"
-            app:layout_constraintTop_toTopOf="@+id/textViewSalasEstudio" />
+            app:layout_constraintTop_toTopOf="@+id/textViewSalasEstudio"
+            app:layout_constraintVertical_bias="1.0" />
 
         <Button
             android:id="@+id/btnAnexoCasino"
@@ -382,8 +398,10 @@
             app:icon="@drawable/ubicacion"
             app:layout_constraintBottom_toBottomOf="@+id/textViewCasino"
             app:layout_constraintEnd_toEndOf="@+id/btnAnexoSalaEstudio"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@+id/btnAnexoSalaEstudio"
-            app:layout_constraintTop_toTopOf="@+id/textViewCasino" />
+            app:layout_constraintTop_toTopOf="@+id/textViewCasino"
+            app:layout_constraintVertical_bias="1.0" />
 
         <Button
             android:id="@+id/btnAnexoExplora"
@@ -392,8 +410,10 @@
             app:icon="@drawable/ubicacion"
             app:layout_constraintBottom_toBottomOf="@+id/textViewExplora"
             app:layout_constraintEnd_toEndOf="@+id/btnAnexoCasino"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/btnAnexoCasino"
-            app:layout_constraintTop_toTopOf="@+id/textViewExplora" />
+            app:layout_constraintTop_toTopOf="@+id/textViewExplora"
+            app:layout_constraintVertical_bias="1.0" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
