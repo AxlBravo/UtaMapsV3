@@ -192,7 +192,7 @@ class MapaGeneral : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLocat
         var marker19 = mMap.addMarker(MarkerOptions().position(aularioSigloXXI).icon(BitmapDescriptorFactory.fromResource(R.drawable.aulario)).title("AularioSigloXXI/Colina"))
 
         var veronicaRey = LatLng(-18.490682220513435, -70.29591946107949)
-        var marker20 = mMap.addMarker(MarkerOptions().position(veronicaRey).icon(BitmapDescriptorFactory.fromResource(R.drawable.anexo)).title("Veronica Rey"))
+        var marker20 = mMap.addMarker(MarkerOptions().position(veronicaRey).icon(BitmapDescriptorFactory.fromResource(R.drawable.anexo)).title("Dirección de equidad de genero"))
 
         var biblioteca = LatLng(-18.4904001837511, -70.29579889789869)
         var marker21 = mMap.addMarker(MarkerOptions().position(biblioteca).icon(BitmapDescriptorFactory.fromResource(R.drawable.anexo)).title("Bliblioteca central"))
