@@ -14,34 +14,34 @@
         tools:context=".ui.anexos.Fragment">
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/imageViewBibliotecaCentral"
             android:layout_width="140dp"
             android:layout_height="100dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/deptofisica"
+            android:src="@drawable/deptomatematicas"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textViewBibliotecaCentral"
             android:layout_width="198dp"
             android:layout_height="55dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
-            android:text="Departamento de Física"
+            android:text="Biblioteca Central"
             android:textColor="#FFFFFF"
             android:textSize="16sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewBibliotecaCentral"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageView2"
-            app:layout_constraintTop_toTopOf="@+id/imageView2" />
+            app:layout_constraintStart_toEndOf="@+id/imageViewBibliotecaCentral"
+            app:layout_constraintTop_toTopOf="@+id/imageViewBibliotecaCentral" />
 
 
         <ImageView
-            android:id="@+id/imageView4"
+            android:id="@+id/imageViewVeronicaRey"
             android:layout_width="140dp"
             android:layout_height="100dp"
             android:layout_marginStart="16dp"
@@ -49,22 +49,284 @@
             android:scaleType="centerCrop"
             android:src="@drawable/deptomatematicas"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+            app:layout_constraintTop_toBottomOf="@+id/imageViewBibliotecaCentral" />
 
         <TextView
-            android:id="@+id/textView7"
+            android:id="@+id/textViewVeronicaRey"
             android:layout_width="198dp"
             android:layout_height="55dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif-black"
-            android:text="Departamento de Matemáticas"
+            android:text="Dirección de Equidad de Genero"
             android:textColor="#FFFFFF"
             android:textSize="16sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewVeronicaRey"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageView4"
-            app:layout_constraintTop_toTopOf="@+id/imageView4" />
+            app:layout_constraintStart_toEndOf="@+id/imageViewVeronicaRey"
+            app:layout_constraintTop_toTopOf="@+id/imageViewVeronicaRey" />
+
+        <ImageView
+            android:id="@+id/imageViewBodegaDespachoInventario"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="42dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/deptomatematicas"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewVeronicaRey" />
+
+        <TextView
+            android:id="@+id/textViewBodegaDespachoInventario"
+            android:layout_width="198dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Bodega, Despacho e Inventario"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewBodegaDespachoInventario"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewBodegaDespachoInventario"
+            app:layout_constraintTop_toTopOf="@+id/imageViewBodegaDespachoInventario" />
+
+        <ImageView
+            android:id="@+id/imageViewOficinasyBodegas"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="42dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/deptomatematicas"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewBodegaDespachoInventario" />
+
+        <TextView
+            android:id="@+id/textViewOficinasBodegas"
+            android:layout_width="198dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Oficinas y Bodegas"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewOficinasyBodegas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewOficinasyBodegas"
+            app:layout_constraintTop_toTopOf="@+id/imageViewOficinasyBodegas" />
+
+        <ImageView
+            android:id="@+id/imageViewServiciosHigienicos"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="42dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/deptomatematicas"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewOficinasyBodegas" />
+
+        <TextView
+            android:id="@+id/textViewServiciosHigienicos"
+            android:layout_width="198dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Oficinas y Bodegas"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewServiciosHigienicos"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewServiciosHigienicos"
+            app:layout_constraintTop_toTopOf="@+id/imageViewServiciosHigienicos" />
+
+        <ImageView
+            android:id="@+id/imageViewFotocopiaSalasClases"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="42dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/deptomatematicas"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewServiciosHigienicos" />
+
+        <TextView
+            android:id="@+id/textViewFotocopiasSalasClases"
+            android:layout_width="198dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Fotocopiadoras y salas de clases"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewFotocopiaSalasClases"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewFotocopiaSalasClases"
+            app:layout_constraintTop_toTopOf="@+id/imageViewFotocopiaSalasClases" />
+
+        <ImageView
+            android:id="@+id/imageViewSalaEstudio"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="42dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/deptomatematicas"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewFotocopiaSalasClases" />
+
+        <TextView
+            android:id="@+id/textViewSalasEstudio"
+            android:layout_width="198dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Salas de Estudio"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewSalaEstudio"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewSalaEstudio"
+            app:layout_constraintTop_toTopOf="@+id/imageViewSalaEstudio" />
+
+        <ImageView
+            android:id="@+id/imageViewCasino"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="42dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/deptomatematicas"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewSalaEstudio" />
+
+        <TextView
+            android:id="@+id/textViewCasino"
+            android:layout_width="198dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Casino"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewCasino"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewCasino"
+            app:layout_constraintTop_toTopOf="@+id/imageViewCasino" />
+
+        <ImageView
+            android:id="@+id/imageViewExplora"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="42dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/deptomatematicas"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewCasino" />
+
+        <TextView
+            android:id="@+id/textViewExplora"
+            android:layout_width="198dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Explora"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewExplora"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewExplora"
+            app:layout_constraintTop_toTopOf="@+id/imageViewExplora" />
+
+        <ImageView
+            android:id="@+id/imageViewFEUCH"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="42dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/deptomatematicas"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewExplora" />
+
+        <TextView
+            android:id="@+id/textViewFEUCH"
+            android:layout_width="198dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="sans-serif-black"
+            android:text="FEUCH"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewFEUCH"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewFEUCH"
+            app:layout_constraintTop_toTopOf="@+id/imageViewFEUCH" />
+
+        <ImageView
+            android:id="@+id/imageViewPreUniversitario"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="42dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/deptomatematicas"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewFEUCH" />
+
+        <TextView
+            android:id="@+id/textViewPreUniversitario"
+            android:layout_width="198dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Pre Universitario"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewPreUniversitario"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewPreUniversitario"
+            app:layout_constraintTop_toTopOf="@+id/imageViewPreUniversitario" />
+
+        <ImageView
+            android:id="@+id/imageViewCEINPSI"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="42dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/deptomatematicas"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewPreUniversitario" />
+
+        <TextView
+            android:id="@+id/textViewCEINPSI"
+            android:layout_width="198dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Psicología CEINPSI"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewCEINPSI"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewCEINPSI"
+            app:layout_constraintTop_toTopOf="@+id/imageViewCEINPSI" />
+
+
 
 
 
